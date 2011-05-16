@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<serviceType xmlns="http://www.sonicsw.com/sonicxq" name="TerminateService" factoryClass="br.com.progress.codeshare.esbservice.TerminateService" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sonicsw.com/sonicxq file:///C:/Sonic/ESB7.6/schema/serviceType.xsd">
+	<validParams>
+	</validParams>	
+	<classLoading>
+	    <serviceType>
+	        <classpath_list>
+	            <classpath>sonicfs:///workspace/TerminateService/lib/custom-services-classes.jar</classpath>
+	        </classpath_list>
+	    </serviceType>
+	</classLoading>
+</serviceType>
